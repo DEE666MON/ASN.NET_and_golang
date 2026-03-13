@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Регистрация</h1>
+            <div class="card">
+                <input type="text" id="input_name" placeholder="Имя"><br>
+                <input type="number" id="input_age" placeholder="Возвраст"><br>
+                <input type="text" id="input_login" placeholder="Логин"><br>
+                <input type="password" id="input_password" placeholder="Пароль"><br><br>
+                <button id="login_btn" onclick="Register()">Зарегистрироваться</button>
+                <div class="message" id="reg_msg"></div>
+                <p class="link">Есть уже аккаунта? <a href="/login.html">Авторизируйся</a></p>
+            </div>
+        </div>
+        <script src="js/register.js"></script>
+    </body>
+</html>
